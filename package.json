@@ -1,0 +1,28 @@
+{
+  "name": "crudwithmongodb",
+  "version": "1.0.0",
+  "description": "Crud with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "Jamal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
